@@ -22,7 +22,7 @@ init <- c(S = 1-1e-6, I = 1e-6, R = 0.0)
 parameters <- c(beta = 2.316, gamma = 0.261)
 
 ## Time frame
-times      <- seq(0, 100, by = 0.5)
+times      <- seq(0, 100, by = 5)
 ```
 
 ## Create the function with the differential equations:
